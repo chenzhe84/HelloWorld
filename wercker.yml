@@ -50,6 +50,5 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD 
-        cmd: /pipeline/source/hello
-        tag: latest
-        repository: chenzhe84/HelloWorld
+        tag: v1
+        repository: chenzhe84/Hello
