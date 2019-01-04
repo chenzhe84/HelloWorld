@@ -50,5 +50,5 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD 
-        tag: v1
-        repository: chenzhe84/Hello
+        tag: v2
+        repository: chenzhe84/helloworld
